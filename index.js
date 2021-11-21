@@ -37,6 +37,31 @@ client.on("message", msg => {
   }
 });
 
+client.on("message", msg => {
+  if (msg.content === "reklam") {
+    msg.reply(
+      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+    );
+  }
+});
+
+client.on("message", msg => {
+  if (msg.content === "ریکلام") {
+    msg.reply(
+      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+    );
+  }
+});
+
+client.on("message", msg => {
+  if (msg.content === "سڵاو ریکلام") {
+    msg.reply(
+      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+    );
+  }
+});
+
+
 
 client.on("message" , message => {
 
